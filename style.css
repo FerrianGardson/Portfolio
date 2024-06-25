@@ -1,0 +1,104 @@
+/* Подключение шрифта Montserrat из Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Kwixter';
+    src: url('fonts/Kwixter Sketch_D.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Глобальные переменные */
+:root {
+    --font-family-main: 'Montserrat', sans-serif;
+    --font-size: 16pt;
+    --color-black: #272727;
+    --color-white: #FFFFFF;
+    --color-red: #a32828;
+    --color-hover:#c93131;
+    --content-width:1280px;
+
+}
+
+
+h1, h2 {font-family:Kwixter}
+h1 {font-size:44px;color:var(--color-black)}
+h2 {font-size:36px;color:var(--color-red)}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+body {
+    margin: 0;
+}
+
+section.navbar {
+    padding: 1rem;
+    background: #292929;
+}
+
+a {
+    color: var(--color-red);
+}
+
+section.navbar a {
+    color: white;
+}
+
+body {
+    font-family: var(--font-family-main);
+}
+
+a.button {
+    background: var(--color-red);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 4px;
+}
+
+.nowrap {
+    flex-flow: nowrap;
+}
+
+section > div {
+    margin: auto;
+    max-width: var(--content-width);
+}
+
+
+a.button:hover {
+    background: var(--color-hover);
+}
+
+a.button.larger {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+}
+
+section {
+    padding: 1rem;
+}
+
+img.pic {
+    float: right;
+    max-width: 100%;
+}
+
+section.desktop div.text {
+    position: relative;
+    top: 1.5rem;
+}
+
+.desktop h2 {
+    position: relative;
+    top: -1.1rem;
+}
