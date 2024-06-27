@@ -140,7 +140,7 @@ ul {
 
 a.case > img {
   width: 390px;
-  filter: saturate(0.5) opacity(0.5);
+  /* filter: saturate(0.5) opacity(0.5); */
 }
 
 .bg.dark {

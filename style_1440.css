@@ -8,14 +8,21 @@
   }
 
   .screen:hover img.resume {
-    transform: rotate(27deg) translateY(0px) scale(1.7);
+    transform: rotate(27deg) translateY(31.8px) translateX(-16px) scale(1.7);
   }
+
   a.case > img {
     filter: saturate(0.5) opacity(0.5);
+  }
+
+  a.case:hover > img {
+    filter: saturate(1) opacity(1);
+    transform: scale(1.2);
+    box-shadow: 4px 4px 20px black;
+    position: relative;
+    z-index: 1;
   }
 }
 
 @media (max-width: 425px) {
-
-  }
-  
+}
