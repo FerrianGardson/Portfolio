@@ -1,14 +1,21 @@
 @media (min-width: 1440px) {
-    img.pic.selfie {
-      transform: translateX(-130px);
-    }
-  
-    .screen:hover img.pic.selfie {
-      transform: translateX(-30px) scale(1.4) rotate(-16.2deg);
-    }
-  
-    .screen:hover img.resume {
+  img.pic.selfie {
+    transform: translateX(-130px);
+  }
+
+  .screen:hover img.pic.selfie {
+    transform: translateX(-30px) scale(1.4) rotate(-16.2deg);
+  }
+
+  .screen:hover img.resume {
     transform: rotate(27deg) translateY(0px) scale(1.7);
   }
+  a.case > img {
+    filter: saturate(0.5) opacity(0.5);
+  }
+}
+
+@media (max-width: 425px) {
+
   }
   
