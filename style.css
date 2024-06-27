@@ -1,5 +1,5 @@
-/* ÃÅ¸ÃÂ¾ÃÂ´ÃÂºÃÂ»Ã‘Å½Ã‘â€¡ÃÂµÃÂ½ÃÂ¸ÃÂµ Ã‘Ë†Ã‘â‚¬ÃÂ¸Ã‘â€žÃ‘â€šÃÂ° Montserrat ÃÂ¸ÃÂ· Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
 
 @font-face {
   font-family: "Kwixter";
@@ -8,7 +8,6 @@
   font-style: normal;
 }
 
-/* Ãâ€œÃÂ»ÃÂ¾ÃÂ±ÃÂ°ÃÂ»Ã‘Å’ÃÂ½Ã‘â€¹ÃÂµ ÃÂ¿ÃÂµÃ‘â‚¬ÃÂµÃÂ¼ÃÂµÃÂ½ÃÂ½Ã‘â€¹ÃÂµ */
 :root {
   --font-family-main: "Montserrat", sans-serif;
   --font-size: 16pt;
@@ -21,7 +20,7 @@
 
 h1,
 h2 {
-  font-family: Kwixter;
+  font-family: Unbounded;
   overflow-wrap: break-word;
 }
 h1 {
@@ -118,19 +117,6 @@ section.bg.light {
   background-size: cover;
 }
 
-section.bg {
-  /* -webkit-mask-image: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 1) 10%,
-    rgba(255, 255, 255, 1) 95%,
-    rgba(255, 255, 255, 0) 100%
-  ); */
-  /* -webkit-mask-size: 100%; */
-  /* -webkit-mask-repeat: no-repeat; */
-  /* -webkit-mask-position: top; */
-}
-
 img.resume:hover {
   transform: rotate(27deg) translateY(0px) scale(1.2);
 }
@@ -146,11 +132,6 @@ img.resume:hover {
 .spread {
   display: flex;
   justify-content: space-between;
-}
-
-.pic {
-  /* width: 656px; */
-  /* max-width: 100%; */
 }
 
 a.social {
@@ -170,8 +151,6 @@ ul {
 }
 
 img.pic.selfie {
-  /* transform: translateX(-170px); */
-  /* transition: transform 0.3s ease-in-out; */
   width: 490px;
 }
 
@@ -187,31 +166,13 @@ img.pic.selfie:hover {
   width: 490px;
 }
 
-section.cases {
-  /* background: #000000; */
-}
-
-a.case {
-  /* width: 390px; */
-  /* height: 306px; */
-}
-
 a.case > img {
   width: 390px;
-  /* height: 306px; */
   filter: saturate(0.5) opacity(0.5);
-}
-
-.row.align {
-  /* display: flex; */
-  /* justify-content: center; */
 }
 
 .bg.dark {
   background: url(img/shards.png) black;
-  /* background-size: 50% 50%; */
-  /* transform: scale(1.2); */
-  /* background-size: contain; */
 }
 
 .shards > .row.align {
